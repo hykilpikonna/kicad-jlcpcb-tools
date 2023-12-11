@@ -63,10 +63,13 @@ cd /home/<username>/.local/share/kicad/<version>/scripting/plugins  # <version> 
 git clone https://github.com/Bouni/kicad-jlcpcb-tools.git
 ```
 
-**Linux**
+**macOS**
 
 ```sh
+# Older path
 cd ~/Library/Preferences/kicad/scripting/plugins
+# Newer path (Kicad 7.0)
+cd ~/Documents/KiCad/7.0/3rdparty/plugins
 git clone https://github.com/Bouni/kicad-jlcpcb-tools.git
 ```
 
